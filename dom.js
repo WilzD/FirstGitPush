@@ -11,3 +11,7 @@ for(let i=0;i<additems.length;i++){
 }
 
 additems[2].style.backgroundColor='black'
+
+let li=document.getElementsByTagName('li')
+li[4].style.fontWeigth='bold'
+li[4].style.backgroundColor='yellow'
