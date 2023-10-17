@@ -15,3 +15,17 @@ additems[2].style.backgroundColor='black'
 let li=document.getElementsByTagName('li')
 li[4].style.fontWeigth='bold'
 li[4].style.backgroundColor='yellow'
+
+let secondLi=document.querySelector('.list-group-item:nth-child(2)')
+// secondLi.style.background='green'
+
+let thirdli=document.querySelector('.list-group-item:nth-child(3)')
+// thirdli.textContent=''
+
+let secondItem=document.querySelectorAll('.list-group-item')
+secondItem[1].style.color='green'
+
+let odditems=document.querySelectorAll('.list-group-item:nth-child(odd)')
+for(let i=0;i<odditems.length;i++){
+    odditems[i].style.background='green'
+}
